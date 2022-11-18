@@ -1,0 +1,110 @@
+@import './variables.scss';
+
+.product-card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  border-radius: 7px;
+
+  .product-card-img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+
+    img {
+      width: 220px;
+      height: 220px;
+      border-radius: 7px;
+      object-fit: contain;
+      transition: 300ms all ease-in-out;
+    }
+
+    img:nth-child(2) {
+      opacity: 0;
+      visibility: hidden;
+      position: absolute;
+    }
+
+    &.switch-img {
+      &:hover {
+        img:nth-child(1) {
+          opacity: 0;
+          visibility: hidden;
+        }
+
+        img:nth-child(2) {
+          opacity: 1;
+          visibility: visible;
+        }
+      }
+    }
+  }
+
+  .product-card-info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+
+    .product-card-info-container__title {
+      h1 {
+        font-size: 20px;
+        font-weight: 600;
+      }
+    }
+
+    .product-card-info-container__price {
+      span {
+        font-size: 16px;
+        font-weight: 600;
+        color: #58585a;
+      }
+    }
+  }
+
+  .product-card-top-buttons {
+    display: flex;
+    position: absolute;
+    top: 0;
+    height: 50px;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    opacity: 0;
+    transition: 300ms all;
+
+    .product-card-top-buttons__wishlist {
+      cursor: pointer;
+      color: #F23D3E;
+      font-size: 23px;
+    }
+
+    .product-card-top-buttons__compare {
+      cursor: pointer;
+      color: #58585a;
+      font-size: 23px;
+    }
+  }
+
+  .product-card-bottom-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .product-card-bottom-buttons__add-to-cart {
+      width: 100%;
+      padding: 10px;
+      border-radius: 0px 0px 7px 7px;
+    }
+  }
+
+  &:hover {
+    .product-card-top-buttons {
+      opacity: 1;
+    }
+  }
+}

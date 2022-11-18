@@ -1,0 +1,298 @@
+{
+  "products": [
+    {
+      "id": 111001,
+      "name": "iPhone 14",
+      "description": "Lorem ipsum dolor sit amet",
+      "price": 1199,
+      "category_id": 1221010,
+      "images": [
+        "https://m.media-amazon.com/images/I/61bK6PMOC3L._AC_SX679_.jpg",
+        "https://m.media-amazon.com/images/I/51oQea2xoGL._AC_SX679_.jpg"
+      ],
+      "variants": [
+        {
+          "color": "Space Gray",
+          "storage": "128GB"
+        },
+        {
+          "color": "Deep Purple",
+          "storage": "256GB"
+        },
+        {
+          "color": "Blue",
+          "storage": "128GB"
+        }
+      ]
+    },
+    {
+      "id": 111002,
+      "name": "iPhone 14 PRO",
+      "description": "Lorem ipsum dolor sit amet",
+      "price": 1349,
+      "category_id": 1221010,
+      "images": [
+        "https://m.media-amazon.com/images/I/61lKQWyMdDL._AC_SX679_.jpg",
+        "https://m.media-amazon.com/images/I/71qRo+VobOL._AC_SX679_.jpg"
+      ],
+      "variants": [
+        {
+          "color": "Space Gray",
+          "storage": "256GB"
+        },
+        {
+          "color": "Deep Purple",
+          "storage": "256GB"
+        },
+        {
+          "color": "Blue",
+          "storage": "128GB"
+        }
+      ]
+    },
+    {
+      "id": 111003,
+      "name": "iPhone 14 MINI",
+      "description": "Lorem ipsum dolor sit amet",
+      "price": 999,
+      "category_id": 1221010,
+      "images": [
+        "https://m.media-amazon.com/images/I/61lKQWyMdDL._AC_SX679_.jpg",
+        "https://m.media-amazon.com/images/I/71qRo+VobOL._AC_SX679_.jpg"
+      ],
+      "variants": [
+        {
+          "color": "Space Gray",
+          "storage": "512GB"
+        },
+        {
+          "color": "Deep Purple",
+          "storage": "256GB"
+        },
+        {
+          "color": "Blue",
+          "storage": "128GB"
+        }
+      ]
+    },
+    {
+      "id": 111004,
+      "name": "Apple Watch Series 8",
+      "description": "Lorem ipsum dolor sit amet",
+      "price": 449,
+      "category_id": 2221010,
+      "images": [
+        "https://m.media-amazon.com/images/I/714rxoYlmsL._AC_SX679_.jpg"
+      ],
+      "variants": [
+        {
+          "color": "Silver Aluminium",
+          "storage": null
+        },
+        {
+          "color": "Midnight Aluminium",
+          "storage": null
+        }
+      ]
+    },
+    {
+      "id": 111005,
+      "name": "Apple Watch Ultra",
+      "description": "Lorem ipsum dolor sit amet",
+      "price": 669,
+      "category_id": 2221010,
+      "images": [
+        "https://m.media-amazon.com/images/I/91z5KuonXrL._AC_SX679_.jpg"
+      ],
+      "variants": [
+        {
+          "color": "Silver Aluminium",
+          "storage": null
+        }
+      ]
+    },
+    {
+      "id": 111006,
+      "name": "Apple Watch SE",
+      "description": "Lorem ipsum dolor sit amet",
+      "price": 369,
+      "category_id": 2221010,
+      "images": [
+        "https://m.media-amazon.com/images/I/71Qd7l1p0JL._AC_SX679_.jpg",
+        "https://m.media-amazon.com/images/I/716KKmKJLBL._AC_SX679_.jpg"
+      ],
+      "variants": [
+        {
+          "color": "Midnight Aluminium",
+          "storage": null
+        }
+      ]
+    },
+    {
+      "id": 111007,
+      "name": "2022 Apple iPad Air",
+      "description": "Lorem ipsum dolor sit amet",
+      "price": 869,
+      "category_id": 3221010,
+      "images": [
+        "https://m.media-amazon.com/images/I/61k05QwLuML._AC_SX679_.jpg"
+      ],
+      "variants": [
+        {
+          "color": "Deep Purple",
+          "storage": "64GB"
+        }
+      ]
+    },
+    {
+      "id": 111008,
+      "name": "2022 Apple iPad Pro",
+      "description": "Lorem ipsum dolor sit amet",
+      "price": 1069,
+      "category_id": 3221010,
+      "images": [
+        "https://m.media-amazon.com/images/I/81+N4PFF7jS._AC_SX679_.jpg"
+      ],
+      "variants": [
+        {
+          "color": "Space Gray",
+          "storage": "256GB"
+        }
+      ]
+    },
+    {
+      "id": 111010,
+      "name": "2021 Apple iPad Mini",
+      "description": "Lorem ipsum dolor sit amet",
+      "price": 569,
+      "category_id": 3221010,
+      "images": [
+        "https://m.media-amazon.com/images/I/71ey-9D8yDL._AC_SX679_.jpg"
+      ],
+      "variants": [
+        {
+          "color": "Space Gray",
+          "storage": "64GB"
+        }
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 1221010,
+      "name": "Phones"
+    },
+    {
+      "id": 2221010,
+      "name": "Watches"
+    },
+    {
+      "id": 3221010,
+      "name": "Tablets"
+    }
+  ],
+  "best-sellers": [
+    {
+      "id": 111001,
+      "name": "iPhone 14",
+      "description": "Lorem ipsum dolor sit amet",
+      "price": 1199,
+      "images": [
+        "https://m.media-amazon.com/images/I/61bK6PMOC3L._AC_SX679_.jpg",
+        "https://m.media-amazon.com/images/I/51oQea2xoGL._AC_SX679_.jpg"
+      ],
+      "variants": [
+        {
+          "color": "Space Gray",
+          "storage": "128GB"
+        },
+        {
+          "color": "Deep Purple",
+          "storage": "256GB"
+        },
+        {
+          "color": "Blue",
+          "storage": "128GB"
+        }
+      ]
+    },
+    {
+      "id": 111002,
+      "name": "iPhone 14 PRO",
+      "description": "Lorem ipsum dolor sit amet",
+      "price": 1349,
+      "images": [
+        "https://m.media-amazon.com/images/I/61lKQWyMdDL._AC_SX679_.jpg",
+        "https://m.media-amazon.com/images/I/71qRo+VobOL._AC_SX679_.jpg"
+      ],
+      "variants": [
+        {
+          "color": "Space Gray",
+          "storage": "256GB"
+        },
+        {
+          "color": "Deep Purple",
+          "storage": "256GB"
+        },
+        {
+          "color": "Blue",
+          "storage": "128GB"
+        }
+      ]
+    },
+    {
+      "id": 111003,
+      "name": "iPhone 14 MINI",
+      "description": "Lorem ipsum dolor sit amet",
+      "price": 999,
+      "images": [
+        "https://m.media-amazon.com/images/I/61lKQWyMdDL._AC_SX679_.jpg",
+        "https://m.media-amazon.com/images/I/71qRo+VobOL._AC_SX679_.jpg"
+      ],
+      "variants": [
+        {
+          "color": "Space Gray",
+          "storage": "512GB"
+        },
+        {
+          "color": "Deep Purple",
+          "storage": "256GB"
+        },
+        {
+          "color": "Blue",
+          "storage": "128GB"
+        }
+      ]
+    }
+  ],
+  "cart": [
+    {
+      "id": 1668789534157,
+      "name": "iPhone 14 PRO",
+      "description": "Lorem ipsum dolor sit amet",
+      "price": 1349,
+      "images": [
+        "https://m.media-amazon.com/images/I/61lKQWyMdDL._AC_SX679_.jpg",
+        "https://m.media-amazon.com/images/I/71qRo+VobOL._AC_SX679_.jpg"
+      ],
+      "variants": [
+        {
+          "color": "Space Gray",
+          "storage": "256GB"
+        },
+        {
+          "color": "Deep Purple",
+          "storage": "256GB"
+        },
+        {
+          "color": "Blue",
+          "storage": "128GB"
+        }
+      ],
+      "product_id": 111002,
+      "quantity": 1
+    }
+  ],
+  "wishlist": [],
+  "compare": []
+}
