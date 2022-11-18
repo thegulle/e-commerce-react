@@ -5,8 +5,6 @@ function ProductDetail() {
   return (
     <div>
       <h1>Detail id : {id}</h1>
-      <h1>Detail id : {id}</h1>
-      <h1>Detail id : {id}</h1>
     </div>
   );
 }
